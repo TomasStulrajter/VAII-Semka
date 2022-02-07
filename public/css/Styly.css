@@ -1,0 +1,333 @@
+/* Style for MAIN PAGE */
+p.main
+{
+    color: white;
+    font-family: Calibri;
+}
+
+body.main
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1.main
+{
+    color: #adb5bd;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h1.main ~ p.main
+{
+    font-size: large;
+    padding-left: 15px;
+}
+
+.col-md-4 p
+{
+    padding: 30px;
+    margin: 25px;
+}
+
+#prvyStlpec
+{
+    border-style: ridge;
+    border-color: yellow;
+}
+
+#spodnyLink:link {
+    color: orange;
+}
+
+#spodnyLink:visited {
+    color: wheat;
+}
+
+#spodnyLink:hover {
+    color: orangered;
+}
+
+#spodnyLink:active {
+    color: wheat;
+}
+
+.col-md-4 img
+{
+    width: 100%;
+}
+
+/* Style for STATISTICS PAGE */
+p.stats
+{
+    color: white;
+    font-family: Calibri;
+    align-items: center;
+}
+
+body.stats
+{
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+h1.stats
+{
+    color: #adb5bd;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h1.stats ~ p.stats
+{
+    font-size: large;
+    padding-left: 15px;
+}
+
+h3.stats
+{
+    color: #adb5bd;
+    font-family: Calibri;
+    padding: 7px;
+    text-align: center;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon
+{
+    filter: invert(100%);
+}
+
+.nav-pills .nav-link, .nav-pills .show > .nav-link
+{
+    color: lightgray;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link
+{
+    color: black;
+    background-color: darkgray;
+}
+
+.napoveda
+{
+    color: white;
+    text-align: center;
+}
+
+div > p.stats
+{
+    font-size: large;
+    color: white;
+    text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
+}
+
+.navbar-brand
+{
+    text-decoration: underline;
+}
+
+div img.stats
+{
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+/* Style for FAQ PAGE */
+p.faq
+{
+    color: white;
+    font-family: Calibri;
+    align-items: center;
+}
+
+body.faq
+{
+    background-size: cover;
+}
+
+h1.faq
+{
+    color: #adb5bd;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h1.faq ~ p.faq
+{
+    font-size: large;
+    padding-left: 15px;
+}
+
+.card
+{
+    float: left;
+    color: white;
+    background-color: black;
+    margin: 10px;
+}
+
+a.faq
+{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+hr
+{
+    border-top: 1px solid white;
+}
+
+/* Style for SIMULATOR PAGES */
+h1.simulator, h2.simulator
+{
+    color: #adb5bd;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h1.simulator ~ p.simulator, h2.simulator ~ p.simulator
+{
+    font-size: large;
+    padding-left: 15px;
+}
+
+p.simulator
+{
+    color: white;
+    font-family: Calibri;
+}
+
+p.error
+{
+    color: orange;
+    font-family: Calibri;
+    font-size: large;
+    padding-left: 15px;
+}
+
+table, td, th, tr
+{
+    border: 2px solid white;
+    border-collapse: collapse;
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+}
+
+pre
+{
+    color: yellow;
+    font-family: Calibri;
+    font-size: large;
+    padding-left: 15px;
+}
+
+form
+{
+    margin-left: 20px;
+}
+
+input
+{
+    border: 3px solid #333333;
+    border-radius: 4px;
+    background-color: ghostwhite;
+}
+
+input[type=submit]
+{
+    border: 3px solid grey;
+    border-radius: 4px;
+    background-color: gray;
+    color: white;
+}
+
+div.upravaButton
+{
+    display:table-cell;
+}
+
+#graf
+{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style for WELCOME PAGE AND HOME PAGE */
+.dark\:text-gray-500
+{
+    color: lightgray;
+}
+
+/* Style for QUIZ PAGE */
+#hlaska_1, #hlaska_2, #hlaska_3
+{
+    margin-left: 50px;
+    color: white;
+}
+
+/* Style for RANKINGS PAGE */
+
+
+/* Style for BUTTONS */
+.univerzalne_tlacidlo, .pridaj_zaznam, .btn:not(:disabled):not(.disabled)
+{
+    background-color: transparent;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+}
+
+/* Style for FORMS */
+.modal-header
+{
+    background-color: #2a2a2a;
+    color: lightgray;
+}
+
+.modal-content
+{
+    background-color: #484848;
+    color: lightgray;
+}
+
+.card-header
+{
+    background-color: #2a2a2a;
+    color: lightgray;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card-body
+{
+    background-color: #212121;
+    color: lightgray;
+    padding-right: 50px;
+}
+
+.table-bordered, .table-striped > tbody > tr:nth-of-type(2n+1) > *
+{
+    background-color: #363636;
+    color: lightgray;
+}
+
+.table-bordered > :not(caption) > * > *
+{
+    background-color: #363636;
+    color: lightgray;
+}
+
+.table-hover > tbody > tr:hover > *
+{
+    background-color: #2a2a2a;
+    color: lightgray;
+}
+
